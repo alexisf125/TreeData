@@ -1,2 +1,5 @@
 torchvision
 pandas
+seaborn
+matplotlib
+sklearn
