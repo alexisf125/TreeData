@@ -1,5 +1,9 @@
+torch
 torchvision
 pandas
 seaborn
+<<<<<<< HEAD
 matplotlib
 sklearn
+=======
+>>>>>>> ebd1e254fbeb8fb5fa280bcfad4f8da454967908
