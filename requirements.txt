@@ -2,6 +2,7 @@ torch
 torchvision
 pandas
 seaborn
+numpy
 <<<<<<< HEAD
 matplotlib
 sklearn
