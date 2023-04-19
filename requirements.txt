@@ -5,3 +5,5 @@ seaborn
 numpy
 matplotlib
 scikit-learn
+keras
+tensorflow
