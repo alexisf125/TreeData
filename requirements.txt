@@ -7,3 +7,6 @@ matplotlib
 scikit-learn
 keras
 tensorflow
+shapely
+descartes
+geopandas
