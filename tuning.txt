@@ -1,0 +1,48 @@
+Tuning the neural net (accuracy on training)
+Optimizer - SGD (epochs 100, learning rate 0.001, hidden_size = 100, batch_size = 100)
+Epoch [10/100], Loss: 1.0604, Accuracy: 0.5618
+Epoch [20/100], Loss: 1.0003, Accuracy: 0.5730
+Epoch [30/100], Loss: 0.9828, Accuracy: 0.5730
+Epoch [40/100], Loss: 0.9784, Accuracy: 0.5730
+Epoch [50/100], Loss: 0.9778, Accuracy: 0.5843
+Epoch [60/100], Loss: 0.9782, Accuracy: 0.5843
+Epoch [70/100], Loss: 0.9788, Accuracy: 0.5843
+Epoch [80/100], Loss: 0.9794, Accuracy: 0.5843
+Epoch [90/100], Loss: 0.9799, Accuracy: 0.5843
+Epoch [100/100], Loss: 0.9804, Accuracy: 0.5843
+
+Optimizer - Adams  (epochs 100, learning rate 0.001, hidden_size = 100, batch_size = 100)
+Epoch [10/100], Loss: 0.9797, Accuracy: 0.5506
+Epoch [20/100], Loss: 0.9735, Accuracy: 0.5618
+Epoch [30/100], Loss: 0.9676, Accuracy: 0.5843
+Epoch [40/100], Loss: 0.9663, Accuracy: 0.5730
+Epoch [50/100], Loss: 0.9760, Accuracy: 0.5730
+Epoch [60/100], Loss: 0.9691, Accuracy: 0.5730
+Epoch [70/100], Loss: 0.9752, Accuracy: 0.5730
+Epoch [80/100], Loss: 0.9936, Accuracy: 0.5618
+Epoch [90/100], Loss: 0.9845, Accuracy: 0.5618
+Epoch [100/100], Loss: 0.9784, Accuracy: 0.5618
+
+Optimizer - SGD (epochs 100, learning rate 0.001, hidden_size = 1000, batch_size = 100)
+Epoch [10/100], Loss: 1.0289, Accuracy: 0.5843
+Epoch [20/100], Loss: 0.9890, Accuracy: 0.5843
+Epoch [30/100], Loss: 0.9766, Accuracy: 0.5843
+Epoch [40/100], Loss: 0.9741, Accuracy: 0.5843
+Epoch [50/100], Loss: 0.9745, Accuracy: 0.5843
+Epoch [60/100], Loss: 0.9757, Accuracy: 0.5843
+Epoch [70/100], Loss: 0.9768, Accuracy: 0.5843
+Epoch [80/100], Loss: 0.9776, Accuracy: 0.5843
+Epoch [90/100], Loss: 0.9781, Accuracy: 0.5843
+Epoch [100/100], Loss: 0.9785, Accuracy: 0.5843
+
+Optimizer - SGD (epochs 100, learning rate 0.0001, hidden_size = 100, batch_size = 100)
+Epoch [10/100], Loss: 1.3378, Accuracy: 0.5056
+Epoch [20/100], Loss: 1.2421, Accuracy: 0.5056
+Epoch [30/100], Loss: 1.1858, Accuracy: 0.5281
+Epoch [40/100], Loss: 1.1491, Accuracy: 0.5281
+Epoch [50/100], Loss: 1.1231, Accuracy: 0.5281
+Epoch [60/100], Loss: 1.1036, Accuracy: 0.5506
+Epoch [70/100], Loss: 1.0880, Accuracy: 0.5618
+Epoch [80/100], Loss: 1.0751, Accuracy: 0.5730
+Epoch [90/100], Loss: 1.0641, Accuracy: 0.5730
+Epoch [100/100], Loss: 1.0545, Accuracy: 0.5730
